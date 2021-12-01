@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Nav bar -->
-    <div class="container d-flex justify-content-end">
+    <div class="container d-flex justify-content-between">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./images/logo.png" alt="logo" />
@@ -27,26 +27,11 @@
       </div>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#product">Product</a>
-                <a class="nav-link" href="#about">About Us</a>
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </div>
-            </div>
+          <div class="navbar-nav d-flex justify-content-end">
+            <a class="nav-link" aria-current="page" href="#">Home </a>
+            <a class="nav-link" href="#product">Product </a>
+            <a class="nav-link" href="#about">About Us </a>
+            <a class="nav-link" href="#contact">Contact Us </a>
           </div>
         </nav>
       </div>
@@ -94,7 +79,7 @@
                 <button class="buy-now-button">BUY NOW</button>
               </div>
 
-              <div class="col-md-8">
+              <div class="col-md-7 car-img">
                 <img src="./images/banner-products/slider-1.png" alt="" />
               </div>
             </div>
@@ -111,7 +96,7 @@
                 <button class="buy-now-button">BUY NOW</button>
               </div>
 
-              <div class="col-md-8">
+              <div class="col-md-7 car-img">
                 <img src="./images/banner-products/slider-2.png" alt="" />
               </div>
             </div>
@@ -128,7 +113,7 @@
                 <button class="buy-now-button">BUY NOW</button>
               </div>
 
-              <div class="col-md-8">
+              <div class="col-md-7 car-img">
                 <img src="./images/banner-products/slider-3.png" alt="" />
               </div>
             </div>
@@ -157,7 +142,10 @@
 
     <!-- Smartphone catagories -->
     <div class="container phone" id="phone">
-      <h3>Smartphone</h3>
+      <div class="heading d-flex justify-content-between">
+        <h3>Smartphone</h3>
+        <h5>See All</h5>
+      </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
@@ -167,10 +155,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
+              <h5 class="card-title">iPhone 11 Pro</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                This is a demo text and should be replaced.
               </p>
               <h5>$120</h5>
               <button class="buy-now-button">Buy Now>></button>
@@ -185,10 +172,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Nike 360</h5>
+              <h5 class="card-title">Samsung Galaxy Note10+</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                This is a demo text and should be replaced.
               </p>
               <h5>$320</h5>
               <button class="buy-now-button">Buy Now>></button>
@@ -203,10 +189,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Red Airmax</h5>
+              <h5 class="card-title">Redmi Note 10 Pro</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                This is a demo text and should be replaced.
               </p>
               <h5>$350</h5>
               <button class="buy-now-button">Buy Now>></button>
@@ -218,7 +203,10 @@
     <!-- Laptop Catagories -->
 
     <div class="container laptop" id="laptop">
-      <h3>Smartphone</h3>
+      <div class="heading d-flex justify-content-between">
+        <h3>Laptop</h3>
+        <h5>See All</h5>
+      </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
@@ -228,10 +216,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Supply 350</h5>
+              <h5 class="card-title">Asus VivoBook</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                This is a demo text and should be replaced.
               </p>
               <h5>$120</h5>
               <button class="buy-now-button">Buy Now>></button>
@@ -246,10 +233,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Nike 360</h5>
+              <h5 class="card-title">Razer Blade 15</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                This is a demo text and should be replaced.
               </p>
               <h5>$320</h5>
               <button class="buy-now-button">Buy Now>></button>
@@ -264,16 +250,36 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Red Airmax</h5>
+              <h5 class="card-title">Xiomi Mi Notebook Pro</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                This is a demo text and should be replaced.
               </p>
               <h5>$350</h5>
               <button class="buy-now-button">Buy Now>></button>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Catagories -->
+    <div class="container d-flex justify-content-center">
+      <h1>Categories</h1>
+    </div>
+    <div class="container d-flex justify-content-around align-items-center">
+      <div class="cat-1">
+        <img src="./images/Categories/bag.png" alt="bag" />
+      </div>
+      <div class="cat-2">
+        <div class="subcat-1">
+          <img src="./images/Categories/perfume.png" alt="perfume" />
+        </div>
+        <div class="subcat-2">
+          <img src="./images/Categories/shoe.png" alt="shoes" />
+        </div>
+      </div>
+      <div class="pale-order">
+        <img src="./images/Categories/pale-order.png" alt="pale-order" />
       </div>
     </div>
 
